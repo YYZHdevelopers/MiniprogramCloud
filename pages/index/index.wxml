@@ -1,0 +1,13 @@
+<input bindinput="addName" placeholder="请输入姓名" class="input"></input>
+<input bindinput="addEmployeeID" placeholder="请输入员工编号" class="input"></input>
+
+<button size="mini" bindtap="addData">添加数据</button>
+
+<button size="mini" bindtap="getData">查询数据</button>
+
+<input bindinput="delInput" placeholder="请输入要删除数据的id" class="input"></input>
+<button bindtap="delData" size="mini">删除数据</button>
+
+<input bindinput="udpInput" placeholder="请输入要更新数据的id" class="input"></input>
+<input bindinput="udpEmployeeID" placeholder="请输入新的员工编号" class="input"></input>
+<button bindtap="udpData" size="mini">更新数据</button>
