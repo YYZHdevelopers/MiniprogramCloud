@@ -1,0 +1,13 @@
+<input placeholder="请输入第一个数" class="input" bindinput="firstAdd"></input>
+<input placeholder="请输入第二个数" class="input" bindinput="secondAdd"></input>
+<button bindtap="handelAdd">加法运算</button>
+
+
+<button bindtap="getUseropen_id">获取用户的open_id</button>
+
+<view>==================================</view>
+
+
+  <view>姓名：{{name[0].phone}}</view>
+<button bindtap="shujuku">通过数据库api获取数据</button>
+<button bindtap="yunhanshu">通过云函数获取数据</button>
