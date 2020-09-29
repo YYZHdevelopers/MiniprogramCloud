@@ -1,0 +1,6 @@
+<button bindtap="upload">图片上传</button>
+<image src="{{img}}"></image>
+<button bindtap="uploadVideo">视频上传</button>
+<video src="{{video}}" controls="controls"></video>
+<button bindtap="uploadExcle">excle上传</button>
+<button bindtap="openExcle">下载并打开excle文件</button>
