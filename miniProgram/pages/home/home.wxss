@@ -1,0 +1,5 @@
+/* pages/home/home.wxss */
+.outer{
+  background-color: blanchedalmond;
+  border: 1rpx solid red;
+}

@@ -1,0 +1,18 @@
+// 云函数入口文件
+const cloud = require('wx-server-sdk')
+
+cloud.init({
+  env:"yyzh-vibvw"
+})
+
+// 云函数入口函数
+exports.main = async (event, context) => {
+   return cloud.database().collection('user').get({
+    success(res){
+      return res
+    },
+    fail(err){
+      return err
+    }
+  })
+}

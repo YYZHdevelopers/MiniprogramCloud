@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+<view wx:for="{{userList}}" wx:key="index"  class="outer">
+  <view>姓名：{{item.name}}</view>
+  <view>年龄：{{item.age}}</view>
+  <view>城市：{{item.city}}</view>
+</view>
+<button bindtap="refeshData">更新数据</button>
+<button bindtap="reBack">返回管理界面</button>
