@@ -3,4 +3,7 @@
   border: 1px solid #333;
   margin-bottom: 6rpx;
 }
+.img{
+  width: 30%;
+}
 

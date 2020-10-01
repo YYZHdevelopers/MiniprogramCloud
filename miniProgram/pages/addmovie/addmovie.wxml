@@ -1,0 +1,12 @@
+<!--miniProgram/pages/addmovie/addmovie.wxml-->
+<view class="outer">
+<input class="title input" placeholder="请输入电影名称" bindinput="title" value="{{value}}"></input>
+<input class="mate input" placeholder="请输入电影类型" bindinput="mate" value="{{value}}"></input>
+<input class="evaluate input" placeholder="请输入评分" bindinput="evaluate" value="{{value}}"></input>
+<view class="pic">
+<image src="{{imgUrl}}" class="img"/>
+</view>
+</view>
+<button bindtap="handelImg">选择图片</button>
+<button bindtap="handelAdd">添加</button>
+<button bindtap="handelClear">清空内容</button>

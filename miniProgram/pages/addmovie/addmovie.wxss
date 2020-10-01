@@ -1,0 +1,18 @@
+/* miniProgram/pages/addmovie/addmovie.wxss */
+.outer{
+    margin-left:150rpx
+}
+.input{
+  border: 1rpx solid #333;
+  width: 70%;
+  height: 50rpx;
+  margin-bottom: 6rpx;
+}
+.img{
+  width: 50%;
+  height:70% ;
+  border: 1px solid black;
+}
+.pic{
+  height: 390rpx;
+}

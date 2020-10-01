@@ -1,0 +1,25 @@
+/* miniProgram/pages/pulldown/pulldown.wxss */
+.outer{
+  background-color: gainsboro;
+  height: 336rpx;
+  margin-bottom: 30rpx;
+}
+.img{
+  width: 30%;
+  height: 100%;
+  float: left;
+  /* border: 1px solid black; */
+}
+.content{
+  float: left;
+  margin-left: 30rpx;
+}
+.content .title{
+  font-size: 40rpx;
+  font-weight: bold;
+  padding-bottom: 20rpx;
+}
+.evaluate{
+  float: right;
+  margin-right: 30rpx;
+}

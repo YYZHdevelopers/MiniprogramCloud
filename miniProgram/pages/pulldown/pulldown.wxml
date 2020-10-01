@@ -1,0 +1,11 @@
+<!--miniProgram/pages/pulldown/pulldown.wxml-->
+<block wx:for="{{movieList}}" wx:key="index">
+  <view class="outer">
+    <image src="{{item.pic}}" class="img" />
+    <view class="content">
+    <view class="title">{{item.title}}</view>
+    <view class="mate">{{item.meta}}</view>
+    </view>
+    <view class="evaluate">{{item.evaluate}}</view>
+  </view>
+</block>

@@ -3,3 +3,7 @@
   background-color: blanchedalmond;
   border: 1rpx solid red;
 }
+.img{
+  width: 30%;
+}
+ 

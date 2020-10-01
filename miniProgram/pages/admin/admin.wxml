@@ -2,6 +2,10 @@
 <input class="input" placeholder="请输入姓名" bindinput="handelAddname" value="{{value}}"></input>
 <input class="input" placeholder="请输入年龄" bindinput="handelAddage" value="{{value}}"></input>
 <input class="input" placeholder="请输入城市" bindinput="handelAddcity" value="{{value}}"></input>
+
+<image src="{{imgUrl}}" mode="widthFix" class="img"></image>
+
+<button bindtap="chooseImg">选择图片...</button>
 <button bindtap="handelAdddata">添加</button>
 <button bindtap="clearInput">清空</button>
 <button bindtap="toUser">转到用户页</button>
